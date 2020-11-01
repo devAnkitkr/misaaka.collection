@@ -1,0 +1,56 @@
+.collection-container {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  margin-bottom: 4em;
+  border: 1px solid grey;
+  background-color: rgba(194, 236, 255, 0.644);
+}
+
+.collection-container p {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.collection-container .card {
+  padding: 10px;
+}
+
+.collection-container .card :hover {
+  background-color: black;
+  cursor: pointer;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all ease-in 100ms;
+  transition: all ease-in 100ms;
+}
+
+@media only screen and (max-width: 768px) {
+  .collection-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=CollectionFirstPreview.css.map */

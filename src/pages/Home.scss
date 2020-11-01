@@ -1,0 +1,106 @@
+.philosophy {
+  height: 400px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 4em 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-pic {
+  border-radius: 10px;
+}
+
+.insta-feed-hero {
+  background-color: rgb(51, 51, 51);
+  // background: rgb(238, 174, 174);
+  // background: radial-gradient(
+  //   circle,
+  //   rgba(238, 174, 174, 1) 0%,
+  //   rgba(150, 117, 150, 1) 100%
+  // );
+}
+
+.about-me-card {
+  width: 60%;
+  background: rgba(0, 0, 0, 0.301);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-body {
+  color: white;
+  text-align: left;
+  padding: 2em;
+}
+
+.hero-text {
+  font-size: xx-large;
+}
+
+.background-overlay {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    306deg,
+    rgba(131, 58, 180, 0.150) 0%,
+    rgba(253, 29, 29, 0.150) 50%,
+    rgba(252, 176, 69, 0.150) 100%
+  );
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .features {
+    flex-direction: column;
+  }
+  p {
+    font-size: 16px;
+  }
+  .logo {
+    img {
+      width: 60px !important;
+    }
+    .hero-text {
+      font-size: large;
+      font-weight: 600;
+    }
+    .sub-hero-text {
+      font-size: small;
+    }
+  }
+
+  .about-me-card {
+    width: 80%;
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+    .about-me-body {
+      padding: 1em;
+    }
+  }
+}
+
+
+.bg-custom{
+  background-color: rgba(0, 0, 0, 0.308);
+}

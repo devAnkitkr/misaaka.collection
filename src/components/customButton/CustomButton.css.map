@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,GAAG;EACZ,aAAa,EAAC,IAAI;EAClB,cAAc,EAAE,GAAG;EACnB,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,yBAAyB;EAC3C,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,QAAQ;CACjB",
+    "sources": [
+        "CustomButton.scss"
+    ],
+    "names": [],
+    "file": "CustomButton.css"
+}

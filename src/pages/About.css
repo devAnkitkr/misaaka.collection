@@ -1,0 +1,42 @@
+.about-me {
+  max-width: 900px;
+  margin: 2em auto;
+}
+
+.about-me .about-me-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 10px 10px 50px rgba(128, 128, 128, 0.548);
+          box-shadow: 10px 10px 50px rgba(128, 128, 128, 0.548);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-me .about-me-row .column-article {
+  padding: 1.5em;
+  text-align: left;
+}
+
+.about-me .about-me-row .column-article h3 {
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-me-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=About.css.map */

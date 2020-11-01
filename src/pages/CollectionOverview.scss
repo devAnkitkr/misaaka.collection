@@ -1,0 +1,60 @@
+.collection-overview {
+  width: 80%;
+  margin: 1em auto;
+  padding: 5em;
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  flex-wrap: wrap;
+  .card {
+    cursor: pointer;
+    border: 20px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.979);
+    box-shadow:5px 5px 10px solid red !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    position: relative;
+    transition: transform 100ms ease-in;
+    .card-img-top {
+      opacity: 1;
+    }
+    .card-title {
+      position: absolute;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.705);
+      margin: 0px 5px;
+      padding: 5px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      transition: all 100ms ease-out;
+    }
+  }
+  .card:hover {
+    transform: scale(1.05);
+    .card-title{
+      transform:scale(0);
+    }
+  }
+}
+.collection-header {
+  width: 65%;
+  margin: 1em auto;
+  padding: 2em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .collection-overview{
+   width: 95%;
+ }
+}

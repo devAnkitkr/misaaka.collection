@@ -1,0 +1,28 @@
+.feedback {
+  width: 100%;
+  min-height: 300px;
+  padding: 4em;
+}
+
+.feedback-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-img {
+  width: 50px;
+}
+.card{
+  margin:10px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+@media only screen and (max-width: 600px) {
+  .feedback-row {
+    flex-direction: column;
+    .card{
+      margin:10px 5px;
+      box-shadow: 2px 2px 2px grey;
+    }
+  }
+}

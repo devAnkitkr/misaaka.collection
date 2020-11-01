@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,UAAU;CAKrB;;AAXD,AAOI,YAPQ,CAOR,EAAE,CAAA;EACE,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,GAAG;CACd",
+    "sources": [
+        "SocialLinks.scss"
+    ],
+    "names": [],
+    "file": "SocialLinks.css"
+}

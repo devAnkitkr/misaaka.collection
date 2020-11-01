@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.title-bar {
+  font-family: "Open Sans Condensed", sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  height: auto;
+  margin: 0;
+  padding: 20px;
+  background: white;
+}
+
+.center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover{
+  text-decoration: none;
+}

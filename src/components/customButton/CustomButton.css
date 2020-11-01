@@ -1,0 +1,12 @@
+.custom-button {
+  width: auto;
+  padding: 5px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-size: medium;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.63);
+  border: 1px solid white;
+  margin: 5px auto;
+}
+/*# sourceMappingURL=CustomButton.css.map */

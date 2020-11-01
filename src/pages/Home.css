@@ -1,0 +1,125 @@
+.philosophy {
+  height: 400px;
+  width: 100%;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  background-color: white;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 4em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.profile-pic {
+  border-radius: 10px;
+}
+
+.insta-feed-hero {
+  background-color: #333333;
+}
+
+.about-me-card {
+  width: 60%;
+  background: rgba(0, 0, 0, 0.301);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-me-body {
+  color: white;
+  text-align: left;
+  padding: 2em;
+}
+
+.hero-text {
+  font-size: xx-large;
+}
+
+.background-overlay {
+  background: #833ab4;
+  background: linear-gradient(306deg, rgba(131, 58, 180, 0.15) 0%, rgba(253, 29, 29, 0.15) 50%, rgba(252, 176, 69, 0.15) 100%);
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  p {
+    font-size: 16px;
+  }
+  .logo img {
+    width: 60px !important;
+  }
+  .logo .hero-text {
+    font-size: large;
+    font-weight: 600;
+  }
+  .logo .sub-hero-text {
+    font-size: small;
+  }
+  .about-me-card {
+    width: 80%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-me-card img {
+    width: 100%;
+  }
+  .about-me-card .about-me-body {
+    padding: 1em;
+  }
+}
+
+.bg-custom {
+  background-color: rgba(0, 0, 0, 0.308);
+}
+/*# sourceMappingURL=Home.css.map */

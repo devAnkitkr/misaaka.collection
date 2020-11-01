@@ -1,0 +1,31 @@
+.collection-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+.collection-title span {
+  font-size: 26px;
+  border: 1px solid grey;
+  border-bottom: none;
+  background-color: #c2ecff;
+  color: #313131;
+  font-weight: 600;
+  padding: 5px 5px 1px 5px;
+  border-radius: 10px 10px 0 0px;
+}
+
+.collection-title span:hover {
+  background-color: #48f9ff;
+  color: white;
+}
+
+.product-container {
+  max-width: 800px;
+  margin: 1em auto;
+}
+/*# sourceMappingURL=Products.css.map */

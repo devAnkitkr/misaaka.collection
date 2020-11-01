@@ -1,0 +1,22 @@
+.carousel-container{
+  width: 100% !important;
+  height: 80vh !important;
+
+  img{
+    width: 100% !important;
+    height: 80vh !important;
+    object-fit: contain !important;
+  }
+}
+
+@media only screen and (max-width: 1080px){
+  .carousel-container {
+    height: auto !important;
+    img{
+    width: 80% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+
+  }}
+}

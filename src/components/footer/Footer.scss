@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  min-height: 80px;
+  padding: 1em;
+  background: rgb(51, 51, 51);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.social-links {
+  display: flex;
+  li {
+    display: block;
+    padding: 5px;
+    letter-spacing: 2px;
+    a{
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
